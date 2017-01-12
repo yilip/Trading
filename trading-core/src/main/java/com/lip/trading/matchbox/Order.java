@@ -1,13 +1,14 @@
 package com.lip.trading.matchbox;
 
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by Lip on 2016-12-19 11:45
  * 订单
  */
-public class Order {
+public class Order implements Serializable{
     public long id;
     public double price;
     public Date time;
@@ -47,17 +48,4 @@ public class Order {
                 ", status=" + status +
                 '}';
     }
-}
-
-enum Direction{
-    BUY(0),SELL(1);
-    private int value;
-     Direction(int d)
-    {
-        this.value=d;
-    }
-}
-
-enum OrderStatus{
-    NEW,DEAL,PART_DEAL,CANCEL
 }

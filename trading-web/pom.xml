@@ -177,6 +177,11 @@
             <artifactId>spring-messaging</artifactId>
             <version>${spring.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.lip.trading</groupId>
+            <artifactId>trading-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <properties>
         <java-version>1.7</java-version>

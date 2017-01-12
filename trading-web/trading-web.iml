@@ -59,6 +59,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-websocket:4.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.1.2.RELEASE" level="project" />
+    <orderEntry type="module" module-name="trading-core" />
     <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:3.6.4" level="project" />
   </component>
 </module>
